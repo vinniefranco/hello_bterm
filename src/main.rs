@@ -200,3 +200,5 @@ impl Obstacle {
         for y in self.gap_y + half_size..SCREEN_HEIGHT {
             ctx.set(screen_x, y, RED, BLACK, to_cp437('|'));
         }
+    }
+}
